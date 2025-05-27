@@ -4071,14 +4071,20 @@ figure.highlight pre .javascript .function {
 .container hr {
   margin: 20px 0;
 }
+#post {
+  background: https;
+}
+#post ::after,
 #post .tag_share:after {
   display: block;
   clear: both;
   content: '';
 }
+#post : .post-meta__tag-list,
 #post .tag_share .post-meta__tag-list {
   display: inline-block;
 }
+#post : .post-meta__tags,
 #post .tag_share .post-meta__tags {
   display: inline-block;
   margin: 8px 8px 8px 0;
@@ -4094,19 +4100,23 @@ figure.highlight pre .javascript .function {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+#post : .post-meta__tags:hover,
 #post .tag_share .post-meta__tags:hover {
   background: #49b1f5;
   color: var(--white);
 }
+#post : .post-share,
 #post .tag_share .post-share {
   display: inline-block;
   float: right;
   margin: 8px 0 0;
   width: fit-content;
 }
+#post : .post-share .social-share,
 #post .tag_share .post-share .social-share {
   font-size: 0.85em;
 }
+#post : .post-share .social-share .social-share-icon,
 #post .tag_share .post-share .social-share .social-share-icon {
   margin: 0 4px;
   width: 1.85em;
