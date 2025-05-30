@@ -223,7 +223,7 @@ a, [href], [data-hover] {
 
 /* 文本输入状态光标 */
 input, textarea, [contenteditable] {
-  cursor: url('/img/btext.cur'), text !important; /* 文本光标 */
+  cursor: url('/img/text.cur'), text !important; /* 文本光标 */
 }
 
 /* 可拖动元素光标 */
